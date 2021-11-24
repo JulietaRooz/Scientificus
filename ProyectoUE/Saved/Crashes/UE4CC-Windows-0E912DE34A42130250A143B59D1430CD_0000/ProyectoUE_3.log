@@ -1,0 +1,14 @@
+Not using cached read wrapper
+Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+Stats thread started at 1.250265
+ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+Loading text-based GConfig....
+MemoryStats:
+	AvailablePhysical 1849139200
+	 AvailableVirtual 5386240
+	     UsedPhysical 104337408
+	 PeakUsedPhysical 104341504
+	      UsedVirtual 51216384
+	  PeakUsedVirtual 59686912
+Allocator Stats for TBB: (not implemented)
+Windows GetLastError: La operación se completó correctamente. (0)

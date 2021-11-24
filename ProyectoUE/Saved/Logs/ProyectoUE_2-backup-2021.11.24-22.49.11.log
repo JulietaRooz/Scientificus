@@ -1,0 +1,57 @@
+﻿Log file open, 11/24/21 17:49:04
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: ProyectoUE
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.098573
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogInit: Display: Loading text-based GConfig....
+LogMemory: Warning: MemoryStats:
+	AvailablePhysical 3239571456
+	 AvailableVirtual 6242304
+	     UsedPhysical 103641088
+	 PeakUsedPhysical 103645184
+	      UsedVirtual 51179520
+	  PeakUsedVirtual 55930880
+Allocator Stats for TBB: (not implemented)
+LogWindows: Windows GetLastError: La operación se completó correctamente. (0)
+LogWindows: Error: === Critical error: ===
+LogWindows: Error: 
+LogWindows: Error: Fatal error: [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMemory.cpp] [Line: 197] 
+LogWindows: Error: Ran out of memory allocating 966240 bytes with alignment 0
+LogWindows: Error: 
+LogWindows: Error: 
+LogWindows: Error: [Callstack] 0x00007ffc61144f69 KERNELBASE.dll!UnknownFunction []
+LogWindows: Error: [Callstack] 0x00007ffc18430536 UE4Editor-Core.dll!UnknownFunction []
+LogWindows: Error: [Callstack] 0x00007ffc18434538 UE4Editor-Core.dll!UnknownFunction []
+LogWindows: Error: [Callstack] 0x00007ffc181525dd UE4Editor-Core.dll!UnknownFunction []
+LogWindows: Error: [Callstack] 0x00007ffc17f047ba UE4Editor-Core.dll!UnknownFunction []
+LogWindows: Error: [Callstack] 0x00007ffc17fba95d UE4Editor-Core.dll!UnknownFunction []
+LogWindows: Error: [Callstack] 0x00007ffc17fbaa3a UE4Editor-Core.dll!UnknownFunction []
+LogWindows: Error: [Callstack] 0x00007ffc181514be UE4Editor-Core.dll!UnknownFunction []
+LogWindows: Error: [Callstack] 0x00007ffc18151895 UE4Editor-Core.dll!UnknownFunction []
+LogWindows: Error: [Callstack] 0x00007ffc26fffe54 UE4Editor-DesktopPlatform.dll!UnknownFunction []
+LogWindows: Error: [Callstack] 0x00007ffc568a12db UE4Editor-Projects.dll!UnknownFunction []
+LogWindows: Error: [Callstack] 0x00007ffc568a7841 UE4Editor-Projects.dll!UnknownFunction []
+LogWindows: Error: [Callstack] 0x00007ffc568b5e76 UE4Editor-Projects.dll!UnknownFunction []
+LogWindows: Error: [Callstack] 0x00007ff790866bd4 UE4Editor.exe!UnknownFunction []
+LogWindows: Error: [Callstack] 0x00007ff79087e6be UE4Editor.exe!UnknownFunction []
+LogWindows: Error: [Callstack] 0x00007ff790870d07 UE4Editor.exe!UnknownFunction []
+LogWindows: Error: [Callstack] 0x00007ff7908710aa UE4Editor.exe!UnknownFunction []
+LogWindows: Error: [Callstack] 0x00007ff7908740cd UE4Editor.exe!UnknownFunction []
+LogWindows: Error: [Callstack] 0x00007ff790885984 UE4Editor.exe!UnknownFunction []
+LogWindows: Error: [Callstack] 0x00007ff79088853a UE4Editor.exe!UnknownFunction []
+LogWindows: Error: [Callstack] 0x00007ffc620b7034 KERNEL32.DLL!UnknownFunction []
+LogWindows: Error: [Callstack] 0x00007ffc63442651 ntdll.dll!UnknownFunction []
+LogWindows: Error: 
+LogWindows: FPlatformMisc::RequestExit(1)
+LogWindows: FPlatformMisc::RequestExitWithStatus(1, 3)
+LogCore: Engine exit requested (reason: Win RequestExit)
+Log file closed, 11/24/21 17:49:11

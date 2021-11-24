@@ -1,0 +1,35 @@
+﻿Log file open, 11/24/21 17:03:28
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: ProyectoUE
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.250265
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogInit: Display: Loading text-based GConfig....
+LogMemory: Warning: MemoryStats:
+	AvailablePhysical 1849139200
+	 AvailableVirtual 5386240
+	     UsedPhysical 104337408
+	 PeakUsedPhysical 104341504
+	      UsedVirtual 51216384
+	  PeakUsedVirtual 59686912
+Allocator Stats for TBB: (not implemented)
+LogWindows: Windows GetLastError: La operación se completó correctamente. (0)
+LogWindows: Error: === Critical error: ===
+LogWindows: Error: 
+LogWindows: Error: Fatal error: [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMemory.cpp] [Line: 197] 
+LogWindows: Error: Ran out of memory allocating 966240 bytes with alignment 0
+LogWindows: Error: 
+LogWindows: Error: 
+LogWindows: Error: 
+LogWindows: FPlatformMisc::RequestExit(1)
+LogWindows: FPlatformMisc::RequestExitWithStatus(1, 3)
+LogCore: Engine exit requested (reason: Win RequestExit)
+Log file closed, 11/24/21 17:04:28
